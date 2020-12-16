@@ -1,0 +1,485 @@
+@media print, (max-width: 1319px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 280px;
+        --font_size: 15px;
+        --font_size_title: 32px;
+        --font_size_title_mini: 26px;
+    }
+
+
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 25px);
+    }
+
+    .content_flex .content > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 15px 0;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        display: none;
+
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+
+        border-top: 1px solid #e8e8e8;
+        background: #fff;
+        box-shadow: 0 0 15px rgba(0,0,0,.15);
+    }
+
+    header .menu .item > a
+    {
+        font-size: 14px;
+
+        min-height: auto;
+        padding: 12px 20px;
+    }
+
+
+    header .menu .item .sub_menu,
+    header .menu .item:hover .sub_menu
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: none;
+        visibility: hidden;
+
+        width: 100%;
+        margin: 0 0 12px;
+
+        text-align: center;
+
+        border: none;
+        box-shadow: 0 0 15px rgba(0,0,0,.08);
+    }
+
+    header .menu .item > a.touch_link + .sub_menu.show
+    {
+        top: 0;
+
+        display: block;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .cats .title
+    {
+        font-size: 17px;
+
+        min-height: 54px;
+        padding: 15px 19px 14px;
+    }
+
+
+    aside .cats .list > * > a
+    {
+        line-height: 16px;
+
+        min-height: 54px;
+        padding: 14px 49px 14px 19px;
+    }
+
+    aside .cats a.sub_link .icon
+    {
+        right: 14px;
+    }
+
+
+    aside .cats .sub_cats a
+    {
+        line-height: 16px;
+
+        min-height: 54px;
+        padding: 14px 49px 14px 34px;
+    }
+
+
+    aside .cats .sub_cats.level3 a
+    {
+        padding-left: 49px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 25px;
+    }
+
+    .block_head .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 460px;
+        margin-top: 15px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 25px;
+    }
+
+    .form .submit_btn
+    {
+        font-size: 17px;
+
+        height: 52px;
+        padding: 0 35px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 23px;
+    }
+
+    .text_block .big
+    {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .text_block .video_link
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+
+    .text_block table td
+    {
+        min-width: 220px;
+    }
+
+    .text_block table td.name
+    {
+        line-height: 18px;
+    }
+
+
+
+    /*-----------------
+        Main banner
+    -----------------*/
+    .main_banner .slide
+    {
+        height: 340px;
+    }
+
+    .main_banner .info
+    {
+        bottom: 25px;
+
+        width: 390px;
+        padding: 25px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .item
+    {
+        font-size: 12px;
+    }
+
+    .stats .item .icon
+    {
+        margin-bottom: 12px;
+    }
+
+    .stats .item .val
+    {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .stats .item .desc
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-----------
+        About
+    -----------*/
+    .about .text_block
+    {
+        width: 100%;
+    }
+
+
+    .about .advantages
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        width: 100%;
+        max-width: 100%;
+        margin-top: 25px;
+        padding: 25px;
+    }
+
+    .about .advantages > * + *
+    {
+        margin-top: 12px;
+    }
+
+    .about .advantages > *:before
+    {
+        top: -10px;
+    }
+
+    .about .advantages br
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Cats wall
+    ---------------*/
+    .cats_wall .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .cats_wall .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .cats_wall .cat
+    {
+        padding: 25px;
+    }
+
+    .cats_wall .cat .name
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .slider
+    {
+        padding: 30px 0;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .list > * + *
+    {
+        margin-top: 25px;
+    }
+
+
+    .team .item
+    {
+        padding: 25px;
+    }
+
+
+    .team .person
+    {
+        padding-right: 70px;
+    }
+
+    .team .person .photo
+    {
+        width: 122px;
+        height: 122px;
+    }
+
+    .team .person .photo + .info
+    {
+        width: calc(100% - 145px);
+    }
+
+    .team .person .name
+    {
+        font-size: 20px;
+    }
+
+    .team .person .post
+    {
+        line-height: 21px;
+
+        margin-top: 10px;
+    }
+
+    .team .person .icon
+    {
+        right: 0;
+
+        width: 42px;
+        height: 42px;
+    }
+
+
+    .team .data.text_block blockquote,
+    .team .data.text_block q
+    {
+        margin-left: 145px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product
+    {
+        padding: 25px;
+    }
+
+    .products .product .thumb + .info
+    {
+        width: calc(100% - 125px);
+    }
+
+    .products .product .desc
+    {
+        font-size: 13px;
+        line-height: 18px;
+
+        margin-top: 10px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .row + .row
+    {
+        margin-top: 32px;
+        padding-top: 32px;
+    }
+
+    .contacts_info .data .title
+    {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 40px;
+    }
+
+    .feedback .title
+    {
+        font-size: 25px;
+        line-height: 29px;
+
+        margin-bottom: 30px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .order_btn
+    {
+        font-size: 17px;
+
+        width: 235px;
+        min-width: 235px;
+        height: 44px;
+        margin-left: 25px;
+    }
+
+
+    .product_info .order_form
+    {
+        margin-bottom: 30px;
+        padding: 40px;
+    }
+
+    .product_info .order_form .title
+    {
+        font-size: 25px;
+        line-height: 29px;
+
+        margin-bottom: 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 20px 0;
+    }
+}

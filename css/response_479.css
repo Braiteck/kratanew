@@ -1,0 +1,203 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+        --font_size_title_mini: 22px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 10px 0;
+    }
+
+
+    header .logo
+    {
+        overflow: hidden;
+
+        width: 40px;
+    }
+
+    header .logo a,
+    header .logo img
+    {
+        height: 38px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .video_link .icon
+    {
+        width: 110px;
+        height: 110px;
+
+        border-width: 3px;
+        background-size: 42px 42px;
+    }
+
+
+
+    /*-----------------
+        Main banner
+    -----------------*/
+    .main_banner .info
+    {
+        left: 20px;
+
+        width: 100%;
+        max-width: calc(100% - 40px);
+    }
+
+    .main_banner .title
+    {
+        font-size: 18px;
+    }
+
+    .main_banner .desc
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*---------------
+        Cats wall
+    ---------------*/
+    .cats_wall .cat
+    {
+        min-height: 200px;
+        padding: 20px;
+    }
+
+    .cats_wall .cat .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        padding-right: 30%;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .person .photo
+    {
+        width: 122px;
+        height: 122px;
+    }
+
+    .team .person .photo + .info
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .team .person .name
+    {
+        font-size: 16px;
+    }
+
+    .team .person .icon
+    {
+        top: 0;
+        bottom: auto;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product .thumb + .info
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 40px 20px;
+    }
+
+    .feedback .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .order_form
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 40px 20px;
+    }
+
+    .product_info .order_form .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        margin-bottom: 20px;
+    }
+}

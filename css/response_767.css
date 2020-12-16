@@ -1,0 +1,445 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 29px;
+        --font_size_title_mini: 23px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo a,
+    header .logo img
+    {
+        height: 30px;
+    }
+
+
+    header .search
+    {
+        margin-right: 15px;
+    }
+
+    header .search .btn
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    header .search .btn .icon
+    {
+        width: 17px;
+        height: 17px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    header .mob_menu_btn span
+    {
+        width: 18px;
+    }
+
+
+
+    /*-----------------
+        Breadcrumbs
+    -----------------*/
+    .breadcrumbs
+    {
+        line-height: 16px;
+
+        margin-bottom: 10px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        width: 100%;
+        margin-top: 12px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        font-size: 16px;
+
+        height: 48px;
+        padding: 0 35px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 22px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        margin-bottom: 15px;
+    }
+
+    .text_block h3
+    {
+        margin-bottom: 10px;
+    }
+
+    .text_block * + h2,
+    .text_block * + h3
+    {
+        margin-top: 35px;
+    }
+
+
+    .text_block .big
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .text_block ol li + li
+    {
+        margin-top: 15px;
+    }
+
+
+    .text_block .video_link .icon
+    {
+        width: 150px;
+        height: 150px;
+
+        border-width: 4px;
+        background-size: 56px 56px;
+    }
+
+
+    .text_block table td
+    {
+        min-width: 0;
+        padding: 12px 14px;
+    }
+
+
+
+    /*-----------------
+        Main banner
+    -----------------*/
+    .main_banner .slide
+    {
+        height: 280px;
+    }
+
+    .main_banner .info
+    {
+        bottom: 20px;
+
+        width: 360px;
+        padding: 22px;
+    }
+
+    .main_banner .title
+    {
+        font-size: 20px;
+    }
+
+    .main_banner .desc
+    {
+        font-size: 13px;
+
+        margin-top: 8px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row
+    {
+        justify-content: center;
+    }
+
+    .stats .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .stats .item .val
+    {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+
+
+    /*-----------
+        About
+    -----------*/
+    .about .advantages
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Cats wall
+    ---------------*/
+    .cats_wall .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    .cats_wall .cat
+    {
+        min-height: 160px;
+    }
+
+    .cats_wall .cat .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        padding-right: 50%;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .list > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .team .item
+    {
+        padding: 20px;
+    }
+
+
+    .team .person
+    {
+        padding-right: 58px;
+    }
+
+    .team .person .photo
+    {
+        width: 102px;
+        height: 102px;
+    }
+
+    .team .person .photo + .info
+    {
+        width: calc(100% - 125px);
+    }
+
+    .team .person .name
+    {
+        font-size: 17px;
+    }
+
+    .team .person .post
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 8px;
+    }
+
+    .team .person .icon
+    {
+        width: 38px;
+        height: 38px;
+    }
+
+
+    .team .data.text_block blockquote,
+    .team .data.text_block q
+    {
+        margin-left: 0;
+    }
+
+
+    .team .data .close
+    {
+        font-size: 14px;
+        line-height: 42px;
+
+        width: 135px;
+        height: 44px;
+        margin: 20px auto 0;
+        padding: 0 20px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product
+    {
+        padding: 20px;
+    }
+
+    .products .product .thumb + .info
+    {
+        width: calc(100% - 120px);
+    }
+
+    .products .product .desc
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .row
+    {
+        margin-bottom: -20px;
+    }
+
+    .contacts_info .data .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .contacts_info .data .row > *.middle,
+    .contacts_info .data .row > *.big
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    .contacts_info .data .title
+    {
+        font-size: 19px;
+        line-height: 21px;
+
+        width: calc(100% - 20px);
+    }
+
+
+    .contacts_info .data .item
+    {
+        line-height: 20px;
+    }
+
+    .contacts_info .data .item .name
+    {
+        margin-bottom: 3px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+
+        margin-bottom: 25px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .head
+    {
+        margin-bottom: 25px;
+
+        flex-wrap: wrap;
+    }
+
+    .product_info .order_btn
+    {
+        font-size: 15px;
+
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+
+    .product_info .order_form .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+
+        margin-bottom: 25px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        font-size: 13px;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+    }
+
+
+    footer .creator
+    {
+        margin-top: 12px;
+    }
+
+    footer .creator a
+    {
+        min-height: 32px;
+        padding-right: 45px;
+
+        background-size: 32px 32px;
+    }
+}
