@@ -34,6 +34,18 @@
     }
 
 
+    header .search .mini_modal
+    {
+        right: 0;
+        left: auto;
+    }
+
+    header .search .mini_modal.active
+    {
+        top: calc(100% + 15px);
+    }
+
+
     header .mob_menu_btn
     {
         display: flex;

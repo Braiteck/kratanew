@@ -49,10 +49,20 @@
 								<img src="images/logo.png" alt="">
 							</div>
 
-							<div class="search">
-								<button class="btn">
+							<div class="search modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#search_modal">
 									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
 								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск по сайту">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
 							</div>
 
 							<nav class="menu">

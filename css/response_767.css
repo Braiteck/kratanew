@@ -24,8 +24,11 @@
 
     header .search
     {
+        position: static;
+
         margin-right: 15px;
     }
+
 
     header .search .btn
     {
@@ -37,6 +40,18 @@
     {
         width: 17px;
         height: 17px;
+    }
+
+
+    header .search .mini_modal
+    {
+        width: 100%;
+        padding: 14px 19px;
+    }
+
+    header .search .mini_modal.active
+    {
+        top: 100%;
     }
 
 
