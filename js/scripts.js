@@ -57,18 +57,21 @@ $(() => {
 	})
 
 
-	$('aside .cats a.sub_link').click(function (e) {
+	$('aside .cats .list .main .sub_link').click(function (e) {
 		e.preventDefault()
 
-		let cats = $(this).parent('div').parent('div')
+		let cats = $(this).closest('.main').parent('div').parent('div'),
+			subCats = $(this).closest('.main').next()
 
 		if ($(this).hasClass('active')) {
-			$(this).removeClass('active').next().slideUp(300)
+			$(this).removeClass('active')
+			subCats.slideUp(300)
 		} else {
 			cats.find('.sub_link').removeClass('active')
 			cats.find('.sub_cats').slideUp(300)
 
-			$(this).addClass('active').next().slideDown(300)
+			$(this).addClass('active')
+			subCats.slideDown(300)
 		}
 	})
 
